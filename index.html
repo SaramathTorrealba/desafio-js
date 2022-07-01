@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Desafío Javascript</title>
-<link rel="stylesheet" href="./style.css">
-</head>
-<body>
-<main class="container">
-  <section class="child1">
-    <img src="./assets/img/dsBuffer.bmp.png" alt="imagen de laptop estilo animado con un fondo de pantalla de dragón color verde y ojos rojos">
-    <h3>Laptop Gamer AMD</h3>
-    <input type="number" id="cantidadId" placeholder="Cantidad" class="inputstyle" value="">
-    <input type="color" id="colorId" placeholder="Color" class="input2" value="" >
-    <div class="padding"> Precio: 400000</div>
-    <button type="button" onclick="calculoTotal()">Calcular total</button>
-  </section>
-  <section class="child2">
-    <div> Total: <p id="totalResult"></p> </div>
-    <div> Cantidad: <p id="cantidadResult"></p> </div>
-    <div class="colorcirculo"> Color: <div id="colorTotal" class="circulo"> </div> </div> 
-  </section> 
-</main>
-<script src="./pruebade.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío Javascript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="child1">
+        <img
+          src="./assets/img/dsBuffer.bmp.png"
+          alt="imagen de laptop estilo animado con un fondo de pantalla de dragón color verde y ojos rojos"
+        />
+        <h3>Laptop Gamer AMD</h3>
+        <input
+          type="number"
+          id="cantidadId"
+          placeholder="Cantidad"
+          class="inputstyle"
+          value=""
+        />
+        <input
+          type="color"
+          id="colorId"
+          placeholder="Color"
+          class="input2"
+          value=""
+        />
+        <div class="padding">Precio: 400000</div>
+        <button type="button" onclick="calculoTotal()">Calcular total</button>
+      </section>
+      <section class="child2">
+        <div>
+          Total:
+          <p id="totalResult"></p>
+        </div>
+        <div>
+          Cantidad:
+          <p id="cantidadResult"></p>
+        </div>
+        <div class="colorcirculo">
+          Color:
+          <div id="colorTotal" class="circulo"></div>
+        </div>
+      </section>
+    </main>
+    <script src="./pruebade.js"></script>
+  </body>
 </html>
